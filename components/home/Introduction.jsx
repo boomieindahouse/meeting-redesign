@@ -4,7 +4,7 @@ export default function Introduction() {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-lg text-gray-600 mb-4">Introduction</h2>
+            <h2 className="text-base text-gray-600 mb-4">Introduction</h2>
             <p className="text-3xl font-serif mb-6">
               We specialize in expert{" "}
               <a href="/web-design" className="text-teal-600 hover:underline">
