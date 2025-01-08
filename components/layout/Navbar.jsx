@@ -32,10 +32,12 @@ export default function Navbar() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="text-black hover:text-teal-600 transition-colors"
+                className="text-black relative transition-colors"
               >
                 {item.label}
+                <span className="absolute left-0 bottom-0 w-0 h-[4px] bg-teal-600 transition-all ease-in-out" />
               </Link>
+
             ))}
             <Link
               href="/contact"
