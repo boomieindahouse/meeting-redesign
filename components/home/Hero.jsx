@@ -3,11 +3,11 @@ export default function Hero() {
     <div className="relative min-h-screen bg-gray-100 flex items-center">
       <div className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1604328698692-f76ea9498e76?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
+          src="/assets/img/herobg.png"
           alt="Background"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gray-200/90"></div>
+        <div className="absolute inset-0"></div>
       </div>
 
       <div className="container mx-auto px-4 relative">
