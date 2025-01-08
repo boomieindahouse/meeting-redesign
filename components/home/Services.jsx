@@ -53,7 +53,7 @@ export default function Services() {
                     <div>
                         <a
                             href="/contact"
-                            className="inline-block bg-black text-white px-8 py-3 mt-6 text-lg hover:bg-gray-800 transition-colors"
+                            className="inline-block bg-black text-white px-6 py-2 mt-6 text-lg hover:bg-gray-800 no-underline"
                         >
                             Contact us
                         </a>

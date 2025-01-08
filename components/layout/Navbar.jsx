@@ -3,9 +3,11 @@
 import { LightbulbIcon } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
+import { usePathname } from "next/navigation";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const pathname = usePathname();  // ดึง pathname ปัจจุบัน
 
   const navItems = [
     { label: "Home", href: "/" },
@@ -16,7 +18,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="fixed w-full  backdrop-blur-md z-50 py-4 shadow-md">
+    <nav className="fixed w-full backdrop-blur-md z-50 py-4 shadow-md">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-2">
@@ -32,16 +34,19 @@ export default function Navbar() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="text-black relative transition-colors"
+                className={`relative text-black transition-colors ${pathname === item.href ? "text-teal-600" : ""
+                  }`}  // เพิ่มเงื่อนไขเพื่อเพิ่มคลาส active
               >
                 {item.label}
-                <span className="absolute left-0 bottom-0 w-0 h-[4px] bg-teal-600 transition-all ease-in-out" />
+                <span
+                  className={`absolute left-0 bottom-0 w-0 h-[2px] bg-teal-600 transition-all ease-in-out ${pathname === item.href ? "w-full" : ""
+                    }`} // เส้นใต้จะขยายเต็มเมื่อเป็น active
+                />
               </Link>
-
             ))}
             <Link
               href="/contact"
-              className="bg-black text-white px-6 py-2 hover:bg-gray-800 transition-colors"
+              className="bg-black text-white px-6 py-2 hover:bg-gray-900 no-underline"
             >
               Contact Us
             </Link>

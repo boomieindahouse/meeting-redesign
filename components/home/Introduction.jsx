@@ -23,15 +23,15 @@ export default function Introduction() {
             
             <div className="grid grid-cols-3 gap-8 mt-12">
               <div>
-                <h3 className="text-4xl font-bold mb-2">7 Years</h3>
+                <h3 className="text-4xl font-semibold mb-2">7 Years</h3>
                 <p className="text-gray-600">in business</p>
               </div>
               <div>
-                <h3 className="text-4xl font-bold mb-2">100+</h3>
+                <h3 className="text-4xl font-semibold mb-2">100+</h3>
                 <p className="text-gray-600">completed projects</p>
               </div>
               <div>
-                <h3 className="text-4xl font-bold mb-2">20+</h3>
+                <h3 className="text-4xl font-semibold mb-2">20+</h3>
                 <p className="text-gray-600">our Clients</p>
               </div>
             </div>
@@ -39,7 +39,7 @@ export default function Introduction() {
           
           <div className="relative">
             <img
-              src="https://plus.unsplash.com/premium_photo-1723299602204-deac42432f93?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src="/assets/img/introimg.png"
               alt="Team working together"
               className="rounded-xl shadow-xl"
             />

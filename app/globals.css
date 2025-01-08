@@ -100,3 +100,7 @@ a::after {
 a:hover::after {
   width: 100%;
 }
+
+a.no-underline::after {
+  display: none;
+}
