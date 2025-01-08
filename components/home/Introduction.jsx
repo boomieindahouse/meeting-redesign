@@ -7,15 +7,15 @@ export default function Introduction() {
             <h2 className="text-base text-gray-600 mb-4">Introduction</h2>
             <p className="text-3xl font-serif mb-6">
               We specialize in expert{" "}
-              <a href="/web-design" className="text-teal-600 hover:underline">
+              <a href="/web-design" className="text-teal-600">
                 website design
               </a>
               , captivating{" "}
-              <a href="/graphic-design" className="text-teal-600 hover:underline">
+              <a href="/graphic-design" className="text-teal-600">
                 graphic design
               </a>
               , and seamless{" "}
-              <a href="/network" className="text-teal-600 hover:underline">
+              <a href="/network" className="text-teal-600">
                 network management
               </a>
               . Let us help you create a powerful online presence that stands out.
