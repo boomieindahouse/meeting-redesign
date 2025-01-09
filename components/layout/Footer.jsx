@@ -36,7 +36,7 @@ export default function Footer() {
                             </li>
                             <li>
                                 <a
-                                    href="/network-service"
+                                    href="/network"
                                     className="text-gray-500 hover:text-gray-300 no-underline"
                                 >
                                     Network Service
@@ -51,7 +51,7 @@ export default function Footer() {
                         <ul className="mt-2 text-sm space-y-1">
                             <li>
                                 <a
-                                    href="https://facebook.com"
+                                    href="https://www.facebook.com/meetingcreative"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-gray-500 hover:text-gray-300 no-underline"
@@ -61,7 +61,7 @@ export default function Footer() {
                             </li>
                             <li>
                                 <a
-                                    href="https://line.me"
+                                    href="https://lin.ee/gYvfSPi"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-gray-500 hover:text-gray-300 no-underline"
@@ -71,7 +71,7 @@ export default function Footer() {
                             </li>
                             <li>
                                 <a
-                                    href="https://instagram.com"
+                                    href="https://www.instagram.com/meeting_creative/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-gray-500 hover:text-gray-300 no-underline"
@@ -81,7 +81,7 @@ export default function Footer() {
                             </li>
                             <li>
                                 <a
-                                    href="mailto:example@example.com"
+                                    href="mailto:contact@meeting.co.th"
                                     className="text-gray-500 hover:text-gray-300 no-underline"
                                 >
                                     Email
