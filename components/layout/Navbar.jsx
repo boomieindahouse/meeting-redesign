@@ -75,12 +75,12 @@ export default function Navbar() {
         </div>
 
         {isMenuOpen && (
-          <div className="md:hidden mt-4 bg-white rounded-lg shadow-lg">
+          <div className="md:hidden mt-4 bg-transparent">
             {navItems.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
-                className="block px-4 py-2 text-gray-600 hover:bg-gray-50"
+                className="block px-4 py-2 text-gray-600 hover:bg-gray-50 "
                 onClick={() => setIsMenuOpen(false)}
               >
                 {item.label}
