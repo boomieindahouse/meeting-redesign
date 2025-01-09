@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <div className="relative min-h-screen bg-gray-100 flex items-center pt-16 md:pt-20">
+    <div className="relative min-h-screen flex items-center pt-16 md:pt-20">
       {/* เพิ่ม pt-16 สำหรับ padding-top เพื่อไม่ให้ Hero ทับ Navbar */}
       <div className="absolute inset-0">
         <img
