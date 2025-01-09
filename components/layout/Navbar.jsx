@@ -23,18 +23,18 @@ export default function Navbar() {
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-2 no-underline">
             <LightbulbIcon className="h-8 w-8 text-turqoise" />
-            <span className="text-xl font-semibold text-gray-900">
+            <span className="text-xl md:text-base font-semibold text-gray-900">
               <span className="text-turqoise">meet</span>ing
-              <span className="text-sm text-gray-600 ml-1">creative</span>
+              <span className="text-sm text-gray-600 ml-1 md:pr-6">creative</span>
             </span>
           </Link>
 
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-8 md:space-x-4">
             {navItems.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
-                className={`relative text-black transition-colors ${pathname === item.href ? "text-teal-600" : ""
+                className={`relative text-black md:text-xs lg:text-base transition-colors ${pathname === item.href ? "text-teal-600" : ""
                   }`}  // เพิ่มเงื่อนไขเพื่อเพิ่มคลาส active
               >
                 {item.label}
@@ -46,7 +46,7 @@ export default function Navbar() {
             ))}
             <Link
               href="/contact"
-              className="bg-black text-white px-6 py-2 hover:bg-gray-900 no-underline"
+              className="bg-black text-white px-6 py-2 hover:bg-gray-900 md:text-xs md:py-1 md:px-4 no-underline"
             >
               Contact Us
             </Link>
