@@ -31,7 +31,7 @@ const ProjectSection = ({ title, children }) => {
 
 const ProjectsPage = () => {
   return (
-    <div className="bg-gray-50 text-black p-4 md:px-36 md:py-20 max-w ">
+    <div className="container mx-auto text-black p-4 md:py-20 max-w ">
       <div className="mb-12">
       <p className="text-sm text-gray-600 mb-4 text-start">Projects</p>
         <h1 className="text-4xl md:text-4xl font-serif mb-12">
