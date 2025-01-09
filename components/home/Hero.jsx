@@ -13,7 +13,7 @@ export default function Hero() {
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w">
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif mb-14">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif mb-14">
             <span className="text-turqoise leading-[1.3]">Meeting </span>
             <span className="leading-[1.3]">your vision</span>
             <br />
@@ -23,7 +23,7 @@ export default function Hero() {
 
           <a
             href="/contact"
-            className="inline-block bg-black text-white px-8 py-3 text-lg hover:bg-gray-900 no-underline"
+            className="inline-block bg-black text-white px-4 py-2 text-sm lg:px-8 lg:py-3 lg:text-lg hover:bg-gray-900 no-underline"
           >
             Line Contact to consult
           </a>
