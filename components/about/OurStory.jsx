@@ -31,8 +31,9 @@ export default function Introduction() {
                             controls
                             muted
                             loop
+                            autoPlay={isLgScreen}
                             className="rounded-xl shadow-xl max-w-full w-full"
-                            autoPlay={isLgScreen} // autoPlay จะทำงานเมื่อขนาดหน้าจอเป็น 'lg' หรือใหญ่กว่า
+                            poster="/assets/img/poster.png"
                         ></video>
                     </div>
                     <div>
