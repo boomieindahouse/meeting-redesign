@@ -38,7 +38,7 @@ export default function Vision() {
                     </div>
 
                     {/* Right Sec img */}
-                    <div className="w-full lg:w-1/2">
+                    <div className="w-full lg:w-1/2 mt-10">
                         <div className="rounded-lg overflow-hidden">
                             <img
                                 src="/assets/img/visionimg.png"
