@@ -18,10 +18,11 @@ module.exports = {
         sm: 'calc(var(--radius) - 4px)',
       },
       fontFamily: {
-        // เพิ่มฟอนต์ที่ต้องการใช้งาน
+        'hedvig': ['Hedvig Letters', 'serif'],
         sans: ['Poppins', 'sans-serif'],
-        serif: ['Hedvig Letters Serif', 'serif'],
+        serif: ['Hedvig Letters Serif', 'serif'], 
       },
+
       colors: {
         turqoise: '#228897',
         border: 'hsl(var(--border))',

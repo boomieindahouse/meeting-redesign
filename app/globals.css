@@ -23,6 +23,13 @@ html.lenis {
   overflow: hidden;
 }
 
+@font-face {
+  font-family: 'Hedvig Letters Serif';
+  src: url('/fonts/hedvig-letters-serif.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
