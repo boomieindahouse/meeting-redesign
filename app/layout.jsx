@@ -1,6 +1,7 @@
 import './globals.css';
 import { Poppins } from 'next/font/google';  // นำเข้า Poppins แทน Inter
 import Navbar from '../components/layout/Navbar';
+import Footer from '../components/layout/Footer';
 import SmoothScroll from './providers/smooth-scroll';
 
 const poppins = Poppins({ subsets: ['latin'], weight: ['100', '400', '700'] });
@@ -60,10 +61,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={poppins.className}>
-        <SmoothScroll>  {/* ครอบ div hero-layout ด้วย SmoothScroll */}
+        <SmoothScroll>
           <div className="hero-layout">
             <Navbar />
             {children}
+            <Footer />
           </div>
         </SmoothScroll>
       </body>
