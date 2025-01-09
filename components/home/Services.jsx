@@ -9,7 +9,7 @@ export default function Services() {
                             <img
                                 src="/assets/img/servicemockup.png"
                                 alt="Mock up pic"
-                                className="w-[full] h-[550px] object-cover"
+                                className="w-[full] sm:h-96 md:h-[550px] object-cover"
                             />
                         </div>
                     </div>

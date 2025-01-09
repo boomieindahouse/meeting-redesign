@@ -22,9 +22,9 @@ export default function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-2">
-            <LightbulbIcon className="h-8 w-8 text-teal-600" />
+            <LightbulbIcon className="h-8 w-8 text-turqoise" />
             <span className="text-xl font-semibold text-gray-900">
-              <span className="text-teal-600">meet</span>ing
+              <span className="text-turqoise">meet</span>ing
               <span className="text-sm text-gray-600 ml-1">creative</span>
             </span>
           </Link>
