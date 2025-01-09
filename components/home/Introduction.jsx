@@ -23,15 +23,15 @@ export default function Introduction() {
             
             <div className="grid grid-cols-3 gap-8 mt-12">
               <div>
-                <h3 className="text-4xl font-medium mb-2">7 Years</h3>
+                <h3 className="text-2xl lg:text-4xl font-medium mb-2">7 Years</h3>
                 <p className="text-gray-600">in business</p>
               </div>
               <div>
-                <h3 className="text-4xl font-medium mb-2">100+</h3>
+                <h3 className="text-2xl lg:text-4xl font-medium mb-2">100+</h3>
                 <p className="text-gray-600">completed projects</p>
               </div>
               <div>
-                <h3 className="text-4xl font-medium mb-2">20+</h3>
+                <h3 className="text-2xl lg:text-4xl font-medium mb-2">20+</h3>
                 <p className="text-gray-600">our Clients</p>
               </div>
             </div>
