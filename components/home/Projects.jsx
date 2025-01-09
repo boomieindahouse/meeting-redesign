@@ -33,7 +33,7 @@ const ProjectsPage = () => {
   return (
     <div className="bg-gray-50 text-black p-4 md:px-36 md:py-20 max-w ">
       <div className="mb-12">
-        <h2 className="text-base text-gray-400 mb-4">Projects</h2>
+      <p className="text-sm text-gray-600 mb-4 text-start">Projects</p>
         <h1 className="text-4xl md:text-4xl font-serif mb-12">
           <span className="text-teal-600">Our Previous Projects:</span> <br /> Showcasing Our Expertise and Excellence.
         </h1>

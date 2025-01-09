@@ -17,7 +17,7 @@ export default function Services() {
 
                 {/* ข้อความ */}
                 <div className="w-full lg:w-1/2 flex flex-col justify-center">
-                    <h2 className="text-base text-gray-600 mb-4">Services</h2>
+                <p className="text-sm text-gray-600 mb-4 text-start">Services</p>
                     <h3 className="text-3xl font-serif mb-6 leading-snug">
                         <span className="text-teal-600">Meeting Creative</span> offers
                         expert website design, captivating graphic design, seamless network

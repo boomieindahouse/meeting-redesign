@@ -4,7 +4,7 @@ export default function Introduction() {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-base text-gray-600 mb-4">Introduction</h2>
+            <p className="text-sm text-gray-600 mb-4 text-start">Introductions</p>
             <p className="text-3xl font-serif mb-6">
               We specialize in expert{" "}
               <a href="/web-design" className="text-teal-600">
@@ -20,7 +20,7 @@ export default function Introduction() {
               </a>
               . Let us help you create a powerful online presence that stands out.
             </p>
-            
+
             <div className="grid grid-cols-3 gap-8 mt-12">
               <div>
                 <h3 className="text-2xl lg:text-4xl font-medium mb-2">7 Years</h3>
@@ -36,7 +36,7 @@ export default function Introduction() {
               </div>
             </div>
           </div>
-          
+
           <div className="relative">
             <img
               src="/assets/img/introimg.png"
