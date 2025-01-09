@@ -21,7 +21,7 @@ export default function Navbar() {
     <nav className="fixed w-full bg-white/50 backdrop-blur-md z-50 py-4 shadow-md">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
-          <Link href="/" className="flex items-center space-x-2">
+          <Link href="/" className="flex items-center space-x-2 no-underline">
             <LightbulbIcon className="h-8 w-8 text-turqoise" />
             <span className="text-xl font-semibold text-gray-900">
               <span className="text-turqoise">meet</span>ing
