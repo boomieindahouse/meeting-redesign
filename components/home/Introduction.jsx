@@ -20,21 +20,6 @@ export default function Introduction() {
               </a>
               . Let us help you create a powerful online presence that stands out.
             </p>
-
-            <div className="grid grid-cols-3 gap-8 mt-12">
-              <div>
-                <h3 className="text-2xl lg:text-4xl font-medium mb-2">7 Years</h3>
-                <p className="text-gray-600">in business</p>
-              </div>
-              <div>
-                <h3 className="text-2xl lg:text-4xl font-medium mb-2">100+</h3>
-                <p className="text-gray-600">completed projects</p>
-              </div>
-              <div>
-                <h3 className="text-2xl lg:text-4xl font-medium mb-2">20+</h3>
-                <p className="text-gray-600">our Clients</p>
-              </div>
-            </div>
           </div>
 
           <div className="relative">
