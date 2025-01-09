@@ -13,39 +13,28 @@ export default function Vision() {
                             presence and engagement.
                         </h3>
                         <p className="text-gray-700 text-lg mb-6">
-                            What will customers get from us?
+                            Vision Statements
                         </p>
                         <ul className="space-y-4">
                             <li className="flex items-start space-x-4">
                                 <span className="text-teal-600 text-xl">•</span>
                                 <span className="text-gray-800">
-                                    <span className="text-teal-600">Expert Service:</span> Professional website design and
-                                    graphic design.
+                                    Focused on innovation and customer satisfaction
                                 </span>
                             </li>
                             <li className="flex items-start space-x-4">
                                 <span className="text-teal-600 text-xl">•</span>
                                 <span className="text-gray-800">
-                                    <span className="text-teal-600">Engaging Online Presence:</span> Captivating and
-                                    effective digital solutions.
+                                    Emphasizing growth and scalability
                                 </span>
                             </li>
                             <li className="flex items-start space-x-4">
                                 <span className="text-teal-600 text-xl">•</span>
                                 <span className="text-gray-800">
-                                    <span className="text-teal-600">Reliable Support:</span> Ongoing assistance and
-                                    seamless network management.
+                                    Highlighting comprehensive services
                                 </span>
                             </li>
                         </ul>
-                        <div>
-                            <a
-                                href="/contact"
-                                className="inline-block bg-black text-white px-6 py-2 my-6 text-lg hover:bg-gray-800 no-underline"
-                            >
-                                Contact us
-                            </a>
-                        </div>
                     </div>
 
                     {/* Right Sec img */}

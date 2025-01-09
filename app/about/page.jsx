@@ -1,5 +1,5 @@
-import Abouttitle from '../../components/about/title';
-import Ourstory from '../../components/about/story';
+import Abouttitle from '../../components/about/AboutTitle';
+import Ourstory from '../../components/about/OurStory';
 import Vision from '../../components/about/Vision';
 
 export default function About() {

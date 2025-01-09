@@ -1,10 +1,11 @@
 import './globals.css';
-import { Poppins } from 'next/font/google';  // นำเข้า Poppins แทน Inter
+import { Poppins, Hedvig_Letters_Serif } from 'next/font/google';  // นำเข้า Poppins แทน Inter
 import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
 import SmoothScroll from './providers/smooth-scroll';
 
 const poppins = Poppins({ subsets: ['latin'], weight: ['100', '400', '700'] });
+const hedvig = Hedvig_Letters_Serif({ subsets: ['latin'] });
 
 export const metadata = {
   title: "Meeting Creative - บริษัท มีตติ้ง ครีเอทีฟ จำกัด บริษัทรับออกแบบเว็บไซต์ กราฟิก เน็ตเวิร์ค รวมถึงบริการ ด้านการตลาดออนไลน์",
