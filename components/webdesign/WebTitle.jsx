@@ -3,14 +3,14 @@ export default function WebTitle() {
         <div className="relative min-h-screen flex items-center pt-16 md:pt-20">
             <div className="absolute inset-0">
                 <picture>
-                    {/* สำหรับหน้าจอขนาดเล็ก (sm) */}
+                    {/* in sm res change bg */}
                     <source
                         srcSet="/assets/img/webbg-sm.png"
                         media="(max-width: 640px)" // ขนาดหน้าจอที่เล็กกว่าหรือเท่ากับ 640px
                     />
-                    {/* สำหรับหน้าจอใหญ่ขึ้น (default) */}
+                    {/* desktop res bg */}
                     <img
-                        src="/assets/img/webbg.png"
+                        src="/assets/img/webdesignpage/webbg1.png"
                         alt="Background"
                         className="w-full h-full object-cover"
                     />

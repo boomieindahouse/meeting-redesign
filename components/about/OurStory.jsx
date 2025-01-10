@@ -6,18 +6,18 @@ export default function Introduction() {
     const [isLgScreen, setIsLgScreen] = useState(false);
 
     useEffect(() => {
-        // ฟังก์ชันตรวจสอบขนาดหน้าจอ
+        // detect display res function
         const handleResize = () => {
-            setIsLgScreen(window.innerWidth >= 1024); // ถ้าขนาดหน้าจอใหญ่กว่าหรือเท่ากับ 1024px ให้เป็น true
+            setIsLgScreen(window.innerWidth >= 1024); //  if display res > 1024px return true
         };
 
-        // เรียกฟังก์ชันทันทีเมื่อเริ่มต้น
+        // เfuction call when start
         handleResize();
 
-        // ฟังการเปลี่ยนขนาดหน้าจอ
+        // changed res display fuction
         window.addEventListener('resize', handleResize);
 
-        // ลบ event listener เมื่อ component ถูกทำลาย
+        // remove event when end component
         return () => window.removeEventListener('resize', handleResize);
     }, []);
 
