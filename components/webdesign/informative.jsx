@@ -39,7 +39,7 @@ export default function Informative() {
                     <div>
                         <p className="text-sm text-gray-600 mb-4 text-start">Informative</p>
                         <p className="text-3xl font-serif mb-6">
-                            <span className='text-teal-600'>We design and develop </span>for a wide range of industries, including for clinic healthcare, for e-commerce, for entertainment, for government, for education, for hospitality, for real estate, and more.
+                            <span className='text-teal-600'>We design and develop </span>for a wide range of industries, including for clinic healthcare, e-commerce, entertainment, government, education, hospitality, real estate, and more.
                         </p>
                     </div>
                 </div>

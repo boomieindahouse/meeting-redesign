@@ -2,11 +2,19 @@ export default function WebTitle() {
     return (
         <div className="relative min-h-screen flex items-center pt-16 md:pt-20">
             <div className="absolute inset-0">
-                <img
-                    src="/assets/img/webbg.png"
-                    alt="Background"
-                    className="w-full h-full object-cover"
-                />
+                <picture>
+                    {/* สำหรับหน้าจอขนาดเล็ก (sm) */}
+                    <source
+                        srcSet="/assets/img/webbg-sm.png"
+                        media="(max-width: 640px)" // ขนาดหน้าจอที่เล็กกว่าหรือเท่ากับ 640px
+                    />
+                    {/* สำหรับหน้าจอใหญ่ขึ้น (default) */}
+                    <img
+                        src="/assets/img/webbg.png"
+                        alt="Background"
+                        className="w-full h-full object-cover"
+                    />
+                </picture>
                 <div className="absolute inset-0"></div>
             </div>
 
