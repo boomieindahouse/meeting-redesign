@@ -50,7 +50,7 @@ const ProjectsPage = () => {
           <p className="text-lg">
             Achieve Your Business Objectives with a Tailor-Made, Speedy, and Mobile-Optimized Website.
           </p>
-          <a href="#" className="text-gray-600 hover:text-black">
+          <a href="/web-design" className="text-gray-600 hover:text-black">
             See more
           </a>
         </div>
