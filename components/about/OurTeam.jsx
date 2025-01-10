@@ -15,7 +15,7 @@ const TeamSection = () => {
             <div className="text-start mb-12">
                 <p className="text-sm text-gray-600 mb-4 text-start">Our team</p>
                 <h3 className="text-3xl font-serif mb-6 leading-snug">
-                    Our expert team is ready to create digital solutions tailored to your needs.
+                    Our expert team is <span className="text-teal-600">ready to create </span>digital solutions tailored to your needs.
                 </h3>
             </div>
 
