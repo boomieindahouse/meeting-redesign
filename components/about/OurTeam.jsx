@@ -1,13 +1,13 @@
 const TeamSection = () => {
     const team = [
-        { name: 'John Doe', role: 'Project Manager', image: '/assets/img/team/avt1.jpg' },
-        { name: 'Jane Doe', role: 'Programmer', image: '/assets/img/team/avt2.jpg' },
-        { name: 'John Doe', role: 'UX/UI Designer', image: '/assets/img/team/avt3.jpg' },
-        { name: 'John Doe', role: 'Graphic Manager', image: '/assets/img/team/avt4.jpg' },
-        { name: 'Jane Doe', role: 'IT Support', image: '/assets/img/team/avt5.jpg' },
-        { name: 'John Doe', role: 'IT Support', image: '/assets/img/team/avt6.jpg' },
-        { name: 'John Doe', role: 'Finance / Admin', image: '/assets/img/team/avt7.jpg' },
-        { name: 'Jane Doe', role: 'CEO', image: '/assets/img/team/avt8.jpg' }
+        { name: 'John Doe', role: 'Project Manager', image: 'https://i.ibb.co/RgJ26WV/avt1.webp' },
+        { name: 'Jane Doe', role: 'Programmer', image: 'https://i.ibb.co/Gp6bzfz/avt2.webp' },
+        { name: 'John Doe', role: 'UX/UI Designer', image: 'https://i.ibb.co/rG5j3H8/avt3.webp' },
+        { name: 'John Doe', role: 'Graphic Manager', image: 'https://i.ibb.co/80r8Svr/avt4.webp' },
+        { name: 'Jane Doe', role: 'IT Support', image: 'https://i.ibb.co/FDXFwbr/avt5.webp' },
+        { name: 'John Doe', role: 'IT Support', image: 'https://i.ibb.co/pzKhSQp/avt6.webp' },
+        { name: 'John Doe', role: 'Finance / Admin', image: 'https://i.ibb.co/Kr3c8XB/avt7.webp' },
+        { name: 'Jane Doe', role: 'CEO', image: 'https://i.ibb.co/YDY6Zpw/avt8.webp' },
     ]
 
     return (
