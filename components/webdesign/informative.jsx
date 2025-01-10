@@ -22,7 +22,7 @@ export default function Informative() {
     }, []);
 
     return (
-        <section className="py-20 bg-white">
+        <section className="py-10 pt-20 bg-white">
             <div className="container mx-auto px-4">
                 <div className="grid md:grid-cols-2 gap-12 items-center">
                     <div className="relative">
@@ -38,7 +38,7 @@ export default function Informative() {
                     </div>
                     <div>
                         <p className="text-sm text-gray-600 mb-4 text-start">Informative</p>
-                        <p className="text-3xl font-serif mb-6">
+                        <p className="text-3xl font-serif">
                             <span className='text-teal-600'>We design and develop </span>for a wide range of industries, including for clinic healthcare, e-commerce, entertainment, government, education, hospitality, real estate, and more.
                         </p>
                     </div>

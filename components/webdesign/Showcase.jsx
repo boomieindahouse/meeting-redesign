@@ -5,7 +5,7 @@ export default function Showcase() {
                 <div className="flex flex-wrap lg:items-center">
                     {/* Left Sec text */}
                     <div className="w-full lg:w-2/3 lg:ml-20 flex flex-col justify-center">
-                        <p className="text-sm text-gray-600 mb-4 text-start">Vision</p>
+                        <p className="text-sm text-gray-600 mb-4 text-start">Show case</p>
                         <h3 className="text-3xl font-serif mb-6 leading-snug">
                             <span className="text-teal-600">Meeting Creative</span> offers
                             expert website design, captivating graphic design, seamless network
