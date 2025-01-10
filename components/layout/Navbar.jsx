@@ -80,7 +80,7 @@ export default function Navbar() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="block px-4 py-2 text-gray-600 hover:bg-gray-50 "
+                className="block px-4 py-2 text-gray-600"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {item.label}
@@ -88,7 +88,7 @@ export default function Navbar() {
             ))}
             <Link
               href="/contact"
-              className="block px-4 py-2 text-gray-600 hover:bg-gray-50"
+              className="block px-4 py-2 text-gray-600"
               onClick={() => setIsMenuOpen(false)}
             >
               Contact Us
