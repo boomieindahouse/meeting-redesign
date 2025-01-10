@@ -1,6 +1,6 @@
 export default function Showcase() {
     return (
-        <section className="py-16">
+        <section className="py-10">
             <div className="container mx-auto px-4">
                 <div className="flex flex-wrap lg:items-center">
                     {/* Left Sec text */}

@@ -48,7 +48,7 @@ const WebProjectSwiperCarousel = () => {
   };
 
   return (
-    <section className="py-4 lg:py-10">
+    <section className="pb-10 lg:py-16">
       <div className="container mx-auto px-4">
         <Swiper {...swiperSettings} className="web-project-slider pb-10">
           {webProjectImages.map((image, index) => (
