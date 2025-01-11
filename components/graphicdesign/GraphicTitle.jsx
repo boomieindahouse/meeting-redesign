@@ -5,12 +5,12 @@ export default function WebTitle() {
                 <picture>
                     {/* in sm res change bg */}
                     <source
-                        srcSet="/assets/img/webdesignpage/webbg-sm.png"
+                        srcSet="/assets/img/graphicpage/graphicsm.png"
                         media="(max-width: 640px)" // ขนาดหน้าจอที่เล็กกว่าหรือเท่ากับ 640px
                     />
                     {/* desktop res bg */}
                     <img
-                        src="/assets/img/webdesignpage/webbgdes.png"
+                        src="/assets/img/graphicpage/graphicbg.png"
                         alt="Background"
                         className="w-full h-full object-cover"
                     />
@@ -19,10 +19,10 @@ export default function WebTitle() {
             </div>
 
             <div className="container mx-auto px-4 relative z-10">
-                <div className="w-4/5 lg:w-1/2">
-                    <h1 className="text-3xl lg:text-5xl font-serif mb-14">
-                        <p className="text-sm text-gray-500 font-sans text-start mb-4">Web Design</p>
-                        <span className="text-black leading-[1.3]">Custom <span className="text-teal-600">Website Development </span>tailored to your needs.</span>
+                <div className="w-5/6 lg:w-1/2">
+                    <h1 className="text-3xl md:text-4xl lg:text-5xl font-serif mb-14">
+                        <p className="text-sm text-gray-300 font-sans text-start mb-4">Graphic Design</p>
+                        <span className="text-white leading-[1.3]">Custom <span className="text-teal-600">Graphic Design </span>tailored to your brand’s vision.</span>
                     </h1>
                 </div>
             </div>

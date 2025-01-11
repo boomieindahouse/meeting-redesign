@@ -54,7 +54,7 @@ export default function Navbar() {
               <Link
                 key={item.href}
                 href={item.href}
-                className={`relative text-black md:text-xs lg:text-base transition-colors ${pathname === item.href ? "text-teal-600" : ""}`}
+                className={`relative text-black md:text-xs lg:text-base transition-colors ${pathname === item.href ? "text-black" : ""}`}
               >
                 {item.label}
                 <span
