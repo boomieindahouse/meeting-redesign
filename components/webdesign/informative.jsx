@@ -6,18 +6,18 @@ export default function Informative() {
     const [isLgScreen, setIsLgScreen] = useState(false);
 
     useEffect(() => {
-        // ฟังก์ชันตรวจสอบขนาดหน้าจอ
+        // check display function
         const handleResize = () => {
-            setIsLgScreen(window.innerWidth >= 1024); // ถ้าขนาดหน้าจอใหญ่กว่าหรือเท่ากับ 1024px ให้เป็น true
+            setIsLgScreen(window.innerWidth >= 1024); // if display >= 1024px is true
         };
 
-        // เรียกฟังก์ชันทันทีเมื่อเริ่มต้น
+        // call function when start
         handleResize();
 
-        // ฟังการเปลี่ยนขนาดหน้าจอ
+        // resize display fuction
         window.addEventListener('resize', handleResize);
 
-        // ลบ event listener เมื่อ component ถูกทำลาย
+        // remove event listener when component destroy
         return () => window.removeEventListener('resize', handleResize);
     }, []);
 
@@ -37,9 +37,9 @@ export default function Informative() {
                         ></video>
                     </div>
                     <div>
-                        <p className="text-sm text-gray-600 mb-4 text-start">Informative</p>
-                        <p className="text-3xl font-serif">
-                            <span className='text-teal-600'>We design and develop </span>for a wide range of industries, including for clinic healthcare, e-commerce, entertainment, government, education, hospitality, real estate, and more.
+                        <p className="text-[8pt] lg:text-sm text-gray-600 mb-4 text-start">Informative</p>
+                        <p className="text-lg lg:text-3xl font-serif">
+                            We specialize in<span className='text-teal-600'> design and develop website </span>for a wide range of clinic healthcare, including for e-commerce, industries, entertainment, government, education, hospitality, real estate, and more.
                         </p>
                     </div>
                 </div>

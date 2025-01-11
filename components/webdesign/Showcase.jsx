@@ -5,34 +5,34 @@ export default function Showcase() {
                 <div className="flex flex-wrap lg:items-center">
                     {/* Left Sec text */}
                     <div className="w-full lg:w-2/3 lg:ml-20 flex flex-col justify-center">
-                        <p className="text-sm text-gray-600 mb-4 text-start">Show case</p>
-                        <h3 className="text-3xl font-serif mb-6 leading-snug">
+                        <p className="text-[8pt] lg:text-sm text-gray-600 mb-4 text-start">Show case</p>
+                        <h3 className="text-lg lg:text-3xl font-serif mb-6 leading-snug">
                             <span className="text-teal-600">Meeting Creative</span> offers
                             expert website design, captivating graphic design, seamless network
                             management, targeted advertising to boost your brand&apos;s online
                             presence and engagement.
                         </h3>
-                        <p className="text-gray-700 text-lg mb-6">
-                            Vision Statements
+                        <p className="text-gray-700 text-[10pt] lg:text-lg mb-6">
+                            Our Process
                         </p>
                         <ul className="space-y-4">
                             <li className="flex items-start space-x-4">
-                                <span className="text-teal-600 text-xl">•</span>
-                                <span className="text-gray-800">
-                                    Focused on innovation and customer satisfaction
-                                </span>
+                            <span className="text-teal-600 lg:text-xl">•</span>
+                            <span className="text-gray-800 text-[10pt] lg:text-base">
+                                <span className="text-teal-600">Discovery Phase:</span> We collaborate with clients to understand their needs and vision.
+                            </span>
                             </li>
                             <li className="flex items-start space-x-4">
-                                <span className="text-teal-600 text-xl">•</span>
-                                <span className="text-gray-800">
-                                    Emphasizing growth and scalability
-                                </span>
+                            <span className="text-teal-600 lg:text-xl">•</span>
+                            <span className="text-gray-800 text-[10pt] lg:text-base">
+                                <span className="text-teal-600">Design and Development:</span> Our team creates innovative designs and develops robust solutions.
+                            </span>
                             </li>
                             <li className="flex items-start space-x-4">
-                                <span className="text-teal-600 text-xl">•</span>
-                                <span className="text-gray-800">
-                                    Highlighting comprehensive services
-                                </span>
+                            <span className="text-teal-600 lg:text-xl">•</span>
+                            <span className="text-gray-800 text-[10pt] lg:text-base">
+                                <span className="text-teal-600">Continuous Support:</span> We provide ongoing support and maintenance to ensure your success.
+                            </span>
                             </li>
                         </ul>
                     </div>
