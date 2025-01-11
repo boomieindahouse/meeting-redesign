@@ -12,7 +12,7 @@ const ProjectSection = ({ title, children }) => {
         onClick={() => setIsOpen(!isOpen)}
         className="w-full flex justify-between items-center py-4 text-left"
       >
-        <span className="text-lg lg:text-2xl font-medium my-4">{title}</span>
+        <span className="text-base lg:text-2xl font-medium my-4">{title}</span>
         {isOpen ? (
           <Minus className="h-6 w-6" />
         ) : (

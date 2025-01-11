@@ -12,25 +12,25 @@ export default function Showcase() {
                             management, targeted advertising to boost your brand&apos;s online
                             presence and engagement.
                         </h3>
-                        <p className="text-gray-700 text-[10pt] lg:text-lg mb-6">
+                        <p className="text-gray-700 text-[12pt] lg:text-lg mb-6">
                             Our Process
                         </p>
                         <ul className="space-y-4">
                             <li className="flex items-start space-x-4">
                             <span className="text-teal-600 lg:text-xl">•</span>
-                            <span className="text-gray-800 text-[10pt] lg:text-base">
+                            <span className="text-gray-800 text-[12pt] lg:text-base">
                                 <span>Discovery Phase:</span> We collaborate with clients to understand their needs and vision.
                             </span>
                             </li>
                             <li className="flex items-start space-x-4">
                             <span className="text-teal-600 lg:text-xl">•</span>
-                            <span className="text-gray-800 text-[10pt] lg:text-base">
+                            <span className="text-gray-800 text-[12pt] lg:text-base">
                                 <span>Design and Development:</span> Our team creates innovative designs and develops robust solutions.
                             </span>
                             </li>
                             <li className="flex items-start space-x-4">
                             <span className="text-teal-600 lg:text-xl">•</span>
-                            <span className="text-gray-800 text-[10pt] lg:text-base">
+                            <span className="text-gray-800 text-[12pt] lg:text-base">
                                 <span>Continuous Support:</span> We provide ongoing support and maintenance to ensure your success.
                             </span>
                             </li>

@@ -42,7 +42,7 @@ export default function Introduction() {
                             <span className="text-teal-600">Meeting Creative </span>is a website design company, graphics, networking
                             including online marketing services.
                         </p>
-                        <p className='text-sm lg:text-base text-gray-600'>
+                        <p className='text-[12pt] lg:text-base text-gray-600'>
                             The executives and staff of Meeting Creative Co., Ltd. have more than 7 years of experience
                             Ready to take care of and be by your side.
                         </p>
