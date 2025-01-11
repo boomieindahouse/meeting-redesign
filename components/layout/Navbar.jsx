@@ -25,7 +25,7 @@ export default function Navbar() {
             <img
               src="/assets/img/logo1.png"
               alt="Background"
-              className="w-full h-[30px] object-cover"
+              className="w-[120px] h-auto lg:w-full lg:h-[30px] object-cover"
             />
           </Link>
 
