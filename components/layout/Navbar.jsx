@@ -1,13 +1,14 @@
 "use client";
 
-import { LightbulbIcon } from "lucide-react";
-import Link from "next/link";
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import { usePathname } from "next/navigation";
+import Link from "next/link";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const pathname = usePathname();  // ดึง pathname ปัจจุบัน
+  const pathname = usePathname(); 
+  const menuRef = useRef(null); 
+  const buttonRef = useRef(null); 
 
   const navItems = [
     { label: "Home", href: "/" },
@@ -16,6 +17,25 @@ export default function Navbar() {
     { label: "Graphic Design", href: "/graphic-design" },
     { label: "Network", href: "/network" },
   ];
+
+  // useEffect ckich outside menu
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (
+        menuRef.current &&
+        !menuRef.current.contains(event.target) &&
+        buttonRef.current &&
+        !buttonRef.current.contains(event.target) // check if didnt work at x btn
+      ) {
+        setIsMenuOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   return (
     <nav className="fixed w-full bg-white/50 backdrop-blur-md z-50 py-4 shadow-md">
@@ -34,13 +54,11 @@ export default function Navbar() {
               <Link
                 key={item.href}
                 href={item.href}
-                className={`relative text-black md:text-xs lg:text-base transition-colors ${pathname === item.href ? "text-teal-600" : ""
-                  }`}  // เพิ่มเงื่อนไขเพื่อเพิ่มคลาส active
+                className={`relative text-black md:text-xs lg:text-base transition-colors ${pathname === item.href ? "text-teal-600" : ""}`}
               >
                 {item.label}
                 <span
-                  className={`absolute left-0 bottom-0 w-0 h-[2px] bg-teal-600 transition-all ease-in-out ${pathname === item.href ? "w-full" : ""
-                    }`} // เส้นใต้จะขยายเต็มเมื่อเป็น active
+                  className={`absolute left-0 bottom-0 w-0 h-[2px] bg-teal-600 transition-all ease-in-out ${pathname === item.href ? "w-full" : ""}`}
                 />
               </Link>
             ))}
@@ -53,11 +71,12 @@ export default function Navbar() {
           </div>
 
           <button
-            className="md:hidden"
+            ref={buttonRef}
+            className="md:hidden focus:outline-none"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             <svg
-              className="w-6 h-6"
+              className={`w-6 h-6 transform transition-transform duration-500 ease-in-out ${isMenuOpen ? "rotate-90" : ""}`}
               fill="none"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -75,7 +94,7 @@ export default function Navbar() {
         </div>
 
         {isMenuOpen && (
-          <div className="md:hidden mt-4 bg-transparent">
+          <div ref={menuRef} className="md:hidden mt-4 bg-transparent">
             {navItems.map((item) => (
               <Link
                 key={item.href}
