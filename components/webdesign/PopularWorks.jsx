@@ -1,7 +1,8 @@
-"use client"
+"use client";
 
 import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Scrollbar } from "swiper/modules"; // นำเข้า Scrollbar module
 import { useProjectImages } from "/hooks/useProjectImages";
 import { Icon } from "@iconify/react";
 
@@ -9,13 +10,23 @@ import { Icon } from "@iconify/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import "swiper/css/scrollbar"; // นำเข้า CSS สำหรับ Scrollbar
 
 // ใช้ Composables สำหรับการตั้งค่า Swiper
 import { useSwiperSettings } from "/composables/useSwiperSettings";
 
 const WebProjectSwiperCarousel = () => {
   const { webProjectImages } = useProjectImages();
-  const swiperSettings = useSwiperSettings();  // ใช้การตั้งค่าจาก useSwiperSettings
+
+  // ใช้การตั้งค่าของ Swiper พร้อม Scrollbar
+  const swiperSettings = {
+    ...useSwiperSettings(),
+    modules: [Scrollbar], // เพิ่ม Scrollbar module
+    scrollbar: {
+      el: ".swiper-scrollbar", // อ้างอิงถึง Scrollbar
+      draggable: true, // อนุญาตให้ลาก Scrollbar ได้
+    },
+  };
 
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentImage, setCurrentImage] = useState(null);
@@ -24,13 +35,13 @@ const WebProjectSwiperCarousel = () => {
   const openModal = (image) => {
     setCurrentImage(image);
     setIsModalOpen(true);
-    document.body.style.overflow = 'hidden';
+    document.body.style.overflow = "hidden";
   };
 
   const closeModal = () => {
     setIsModalOpen(false);
     setCurrentImage(null);
-    document.body.style.overflow = 'unset';
+    document.body.style.overflow = "unset";
   };
 
   const handleMouseDown = () => {
@@ -42,7 +53,7 @@ const WebProjectSwiperCarousel = () => {
   };
 
   const handleImageClick = (e, image) => {
-    if (!isDragging) { // ถ้าไม่ใช่การลาก
+    if (!isDragging) {
       openModal(image);
     }
   };
@@ -57,7 +68,7 @@ const WebProjectSwiperCarousel = () => {
                 className="transform transition-transform duration-300 cursor-pointer"
                 onMouseDown={handleMouseDown}
                 onMouseUp={handleMouseUp}
-                onClick={(e) => handleImageClick(e, image)} // คลิกเมื่อไม่ได้ลาก
+                onClick={(e) => handleImageClick(e, image)}
               >
                 <div className="rounded-lg overflow-hidden max-w-md mx-auto relative group">
                   <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-300 z-10" />
@@ -73,6 +84,17 @@ const WebProjectSwiperCarousel = () => {
               </div>
             </SwiperSlide>
           ))}
+          {/* Scrollbar Element */}
+          <div
+            className="swiper-scrollbar"
+            style={{
+              marginTop: "20px", // เพิ่มระยะห่างจาก Swiper Content
+              height: "3px", // ปรับความสูงของ Scrollbar
+              backgroundColor: "rgba(0, 0, 0, 0.2)", // สีพื้นหลังของ Scrollbar
+              borderRadius: "5px", // ทำมุมของ Scrollbar ให้โค้งมน
+              position: "relative", // กำหนดให้ scrollbar อยู่ภายใน Swiper
+            }}
+          />
         </Swiper>
       </div>
 

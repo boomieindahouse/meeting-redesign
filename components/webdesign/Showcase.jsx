@@ -19,19 +19,19 @@ export default function Showcase() {
                             <li className="flex items-start space-x-4">
                             <span className="text-teal-600 lg:text-xl">•</span>
                             <span className="text-gray-800 text-[10pt] lg:text-base">
-                                <span className="text-teal-600">Discovery Phase:</span> We collaborate with clients to understand their needs and vision.
+                                <span>Discovery Phase:</span> We collaborate with clients to understand their needs and vision.
                             </span>
                             </li>
                             <li className="flex items-start space-x-4">
                             <span className="text-teal-600 lg:text-xl">•</span>
                             <span className="text-gray-800 text-[10pt] lg:text-base">
-                                <span className="text-teal-600">Design and Development:</span> Our team creates innovative designs and develops robust solutions.
+                                <span>Design and Development:</span> Our team creates innovative designs and develops robust solutions.
                             </span>
                             </li>
                             <li className="flex items-start space-x-4">
                             <span className="text-teal-600 lg:text-xl">•</span>
                             <span className="text-gray-800 text-[10pt] lg:text-base">
-                                <span className="text-teal-600">Continuous Support:</span> We provide ongoing support and maintenance to ensure your success.
+                                <span>Continuous Support:</span> We provide ongoing support and maintenance to ensure your success.
                             </span>
                             </li>
                         </ul>

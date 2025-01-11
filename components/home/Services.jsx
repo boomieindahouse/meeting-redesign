@@ -34,21 +34,21 @@ export default function Services() {
                         <li className="flex items-start space-x-4">
                             <span className="text-teal-600 lg:text-xl">•</span>
                             <span className="text-gray-800 text-[10pt] lg:text-base">
-                                <span className="text-teal-600">Expert Service:</span> Professional website design and
+                                <span>Expert Service:</span> Professional website design and
                                 graphic design.
                             </span>
                         </li>
                         <li className="flex items-start space-x-4">
                             <span className="text-teal-600 lg:text-xl">•</span>
                             <span className="text-gray-800 text-[10pt] lg:text-base">
-                                <span className="text-teal-600">Engaging Online Presence:</span> Captivating and
+                                <span>Engaging Online Presence:</span> Captivating and
                                 effective digital solutions.
                             </span>
                         </li>
                         <li className="flex items-start space-x-4">
                             <span className="text-teal-600 lg:text-xl">•</span>
                             <span className="text-gray-800 text-[10pt] lg:text-base">
-                                <span className="text-teal-600">Reliable Support:</span> Ongoing assistance and
+                                <span>Reliable Support:</span> Ongoing assistance and
                                 seamless network management.
                             </span>
                         </li>
