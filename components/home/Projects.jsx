@@ -34,7 +34,7 @@ const ProjectsPage = () => {
     <div className="container mx-auto text-black p-4 md:py-20 max-w ">
       <div className="mb-12">
       <p className="text-[8pt] lg:text-sm text-gray-600 mb-4 text-start">Projects</p>
-        <h1 className="text-lg lg:text-3xl md:text-4xl font-serif mb-12">
+        <h1 className="text-xl lg:text-3xl md:text-4xl font-serif mb-12">
           <span className="text-teal-600">Our Previous Projects:</span> <br /> Showcasing Our Expertise and Excellence.
         </h1>
       </div>

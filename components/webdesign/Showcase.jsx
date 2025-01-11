@@ -6,8 +6,8 @@ export default function Showcase() {
                     {/* Left Sec text */}
                     <div className="w-full lg:w-2/3 lg:ml-20 flex flex-col justify-center">
                         <p className="text-[8pt] lg:text-sm text-gray-600 mb-4 text-start">Show case</p>
-                        <h3 className="text-lg lg:text-3xl font-serif mb-6 leading-snug">
-                            <span className="text-teal-600">Meeting Creative</span> offers
+                        <h3 className="text-xl lg:text-3xl font-serif mb-6 leading-snug">
+                            <span className="text-teal-600">Meeting Creative</span> provides
                             expert website design, captivating graphic design, seamless network
                             management, targeted advertising to boost your brand&apos;s online
                             presence and engagement.

@@ -38,7 +38,7 @@ export default function Informative() {
                     </div>
                     <div>
                         <p className="text-[8pt] lg:text-sm text-gray-600 mb-4 text-start">Informative</p>
-                        <p className="text-lg lg:text-3xl font-serif">
+                        <p className="text-xl lg:text-3xl font-serif">
                             We specialize in<span className='text-teal-600'> design and develop website </span>for a wide range of clinic healthcare, including for e-commerce, industries, entertainment, government, education, hospitality, real estate, and more.
                         </p>
                     </div>

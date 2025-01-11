@@ -5,7 +5,7 @@ export default function Introduction() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <p className="text-[8pt] lg:text-sm text-gray-600 mb-4 text-start">Introductions</p>
-            <p className="text-lg lg:text-3xl font-serif lg:mb-6">
+            <p className="text-xl lg:text-3xl font-serif lg:mb-6">
               We specialize in expert{" "}
               <a href="/web-design" className="text-teal-600">
                 website design

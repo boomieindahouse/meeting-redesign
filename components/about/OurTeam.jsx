@@ -14,7 +14,7 @@ const TeamSection = () => {
         <section className="py-16 px-4 max-w-7xl mx-auto">
             <div className="text-start mb-12">
                 <p className="text-[8pt] lg:text-sm text-gray-600 mb-4 text-start">Our team</p>
-                <h3 className="text-lg lg:text-3xl font-serif mb-6 leading-snug">
+                <h3 className="text-xl lg:text-3xl font-serif mb-6 leading-snug">
                     Our expert team is <span className="text-teal-600">ready to create </span>digital solutions tailored to your needs.
                 </h3>
             </div>
