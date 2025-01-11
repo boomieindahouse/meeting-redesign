@@ -22,11 +22,11 @@ export default function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-2 no-underline">
-            <LightbulbIcon className="h-8 w-8 text-turqoise" />
-            <span className="text-xl md:text-base font-semibold text-gray-900">
-              <span className="text-turqoise">meet</span>ing
-              <span className="text-sm text-gray-600 ml-1 md:pr-6">creative</span>
-            </span>
+            <img
+              src="/assets/img/logo1.png"
+              alt="Background"
+              className="w-full h-[30px] object-cover"
+            />
           </Link>
 
           <div className="hidden md:flex items-center space-x-10 lg:space-x-12">
