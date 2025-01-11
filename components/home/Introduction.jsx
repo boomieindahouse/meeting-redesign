@@ -12,7 +12,7 @@ export default function Introduction() {
               </span>
               , we provides a comprehensive range of services designed to elevate your business in the digital world.{" "}
               </p>
-              <p className='text-[12px] lg:text-base text-gray-600'>
+              <p className='text-[12pt] lg:text-base text-gray-600'>
               Our team of experts is dedicated to providing top-notch solutions tailored to meet your unique needs.
               </p>
             
