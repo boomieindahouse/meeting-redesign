@@ -33,7 +33,7 @@ export default function Informative() {
                             loop
                             autoPlay={isLgScreen}
                             className="rounded-xl shadow-xl max-w-full w-full"
-                            poster="/assets/img/graphposter.png"
+                            poster="/assets/img/webposter.png"
                         ></video>
                     </div>
                     <div>
