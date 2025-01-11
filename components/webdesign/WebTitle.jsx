@@ -10,7 +10,7 @@ export default function WebTitle() {
                     />
                     {/* desktop res bg */}
                     <img
-                        src="/assets/img/webdesignpage/webbg1.png"
+                        src="/assets/img/webdesignpage/webbgdes.png"
                         alt="Background"
                         className="w-full h-full object-cover"
                     />
@@ -19,7 +19,7 @@ export default function WebTitle() {
             </div>
 
             <div className="container mx-auto px-4 relative z-10">
-                <div className="w-1/2">
+                <div className="w-4/5 lg:w-1/2">
                     <h1 className="text-3xl md:text-4xl lg:text-5xl font-serif mb-14">
                         <p className="text-sm text-gray-500 font-sans text-start mb-10">Web Design</p>
                         <span className="text-black leading-[1.3]">Custom <span className="text-teal-600">Website Development </span>tailored to your needs.</span>

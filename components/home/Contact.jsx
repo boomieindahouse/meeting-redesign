@@ -5,8 +5,8 @@ export default function Contact() {
         style={{ backgroundImage: "url('/assets/img/contactimg.png')" }}
       >
         <div className="text-center text-black px-4 md:px-8 max-w-4xl">
-          <p className="text-sm text-gray-600 mb-4 text-start">Contact us</p>
-          <h1 className="text-3xl md:text-5xl font-serif leading-snug mb-6 text-start">
+          <p className="text-[8pt] lg:text-sm text-gray-600 mb-4 text-start">Contact us</p>
+          <h1 className="text-lg md:text-5xl font-serif leading-snug mb-6 text-start">
             Partner with{" "}
             <span className="text-teal-600 font-serif">Meeting Creative</span> to elevate
             your creative products through innovative design and expert solutions.
