@@ -5,32 +5,32 @@ export default function Vision() {
                 <div className="flex flex-wrap lg:items-center">
                     {/* Left Sec text */}
                     <div className="w-full lg:w-1/2 flex flex-col justify-center">
-                        <p className="text-sm text-gray-600 mb-4 text-start">Vision</p>
-                        <h3 className="text-3xl font-serif mb-6 leading-snug">
+                        <p className="text-[8pt] lg:text-sm text-gray-600 mb-4 text-start">Vision</p>
+                        <h3 className="text-lg lg:text-3xl font-serif mb-6 leading-snug">
                             <span className="text-teal-600">Meeting Creative</span> offers
                             expert website design, captivating graphic design, seamless network
                             management, targeted advertising to boost your brand&apos;s online
                             presence and engagement.
                         </h3>
-                        <p className="text-gray-700 text-lg mb-6">
+                        <p className="text-gray-700 text-sm lg:text-lg mb-6">
                             Vision Statements
                         </p>
                         <ul className="space-y-4">
                             <li className="flex items-start space-x-4">
-                                <span className="text-teal-600 text-xl">•</span>
-                                <span className="text-gray-800">
+                                <span className="text-teal-600 lg:text-xl">•</span>
+                                <span className="text-gray-800 text-sm lg:text-base">
                                     Focused on innovation and customer satisfaction
                                 </span>
                             </li>
                             <li className="flex items-start space-x-4">
-                                <span className="text-teal-600 text-xl">•</span>
-                                <span className="text-gray-800">
+                                <span className="text-teal-600 lg:text-xl">•</span>
+                                <span className="text-gray-800 text-sm lg:text-base">
                                     Emphasizing growth and scalability
                                 </span>
                             </li>
                             <li className="flex items-start space-x-4">
-                                <span className="text-teal-600 text-xl">•</span>
-                                <span className="text-gray-800">
+                                <span className="text-teal-600 lg:text-xl">•</span>
+                                <span className="text-gray-800 text-sm lg:text-base">
                                     Highlighting comprehensive services
                                 </span>
                             </li>

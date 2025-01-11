@@ -13,8 +13,8 @@ const TeamSection = () => {
     return (
         <section className="py-16 px-4 max-w-7xl mx-auto">
             <div className="text-start mb-12">
-                <p className="text-sm text-gray-600 mb-4 text-start">Our team</p>
-                <h3 className="text-3xl font-serif mb-6 leading-snug">
+                <p className="text-[8pt] lg:text-sm text-gray-600 mb-4 text-start">Our team</p>
+                <h3 className="text-lg lg:text-3xl font-serif mb-6 leading-snug">
                     Our expert team is <span className="text-teal-600">ready to create </span>digital solutions tailored to your needs.
                 </h3>
             </div>
@@ -29,8 +29,8 @@ const TeamSection = () => {
                                 className="w-full h-full object-cover"
                             />
                         </div>
-                        <h3 className="font-medium text-lg">{member.name}</h3>
-                        <p className="text-gray-600">{member.role}</p>
+                        <h3 className="font-medium text-lg lg:text-lg">{member.name}</h3>
+                        <p className="text-gray-600 text-xs lg:text-sm">{member.role}</p>
                     </div>
                 ))}
             </div>
