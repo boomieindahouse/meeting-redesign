@@ -5,21 +5,17 @@ export default function Introduction() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <p className="text-[8pt] lg:text-sm text-gray-600 mb-4 text-start">Introductions</p>
-            <p className="text-xl lg:text-3xl font-serif lg:mb-6">
-              We specialize in expert{" "}
-              <a href="/web-design" className="text-teal-600">
-                website design
-              </a>
-              , captivating{" "}
-              <a href="/graphic-design" className="text-teal-600">
-                graphic design
-              </a>
-              , and seamless{" "}
-              <a href="/network" className="text-teal-600">
-                network management
-              </a>
-              . Let us help you create a powerful online presence that stands out.
-            </p>
+            <p className="text-xl lg:text-3xl font-serif mb-6 lg:mb-6">
+              At{" "}
+              <span className="text-teal-600">
+                Meeting Creative
+              </span>
+              , we provides a comprehensive range of services designed to elevate your business in the digital world.{" "}
+              </p>
+              <p className='text-sm lg:text-base text-gray-600'>
+              Our team of experts is dedicated to providing top-notch solutions tailored to meet your unique needs.
+              </p>
+            
           </div>
 
           <div className="relative">
