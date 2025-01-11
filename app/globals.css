@@ -118,3 +118,9 @@ a.no-underline::after {
 }
 
 
+@media (max-width: 768px) {
+  a::after {
+    transition: none;
+  }
+}
+
