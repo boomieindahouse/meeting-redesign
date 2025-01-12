@@ -17,14 +17,14 @@ export default function Services() {
 
                 {/* ข้อความ */}
                 <div className="w-full lg:w-1/2 flex flex-col justify-center">
-                    <p className="text-[8pt] lg:text-sm text-gray-600 mb-4 text-start">Services</p>
+                    <p className="text-[8pt] lg:text-sm text-gray-600 mb-4 text-start">Our services</p>
                     <h3 className="text-xl lg:text-3xl font-serif mb-6 leading-snug">
                         We specialize in expert{" "}
                         <a href="/web-design" className="text-teal-600">website design</a>
                         , captivating{" "}
                         <a href="/graphic-design" className="text-teal-600">graphic design</a>
                         , and seamless{" "}
-                        <a href="/network" className="text-teal-600">network management</a>
+                        <a href="/network" className="text-teal-600">network service</a>
                         , let us help you create a powerful online presence that stands out.
                     </h3>
                     <p className="text-gray-700 text-[12pt] lg:text-lg mb-6">

@@ -19,7 +19,7 @@ export default function Contact() {
             </button>
             <button  className="border border-black px-6 py-2 hover:bg-gray-100 transition no-underline">
             <a href="https://lin.ee/gYvfSPi" className="no-underline">
-              Line Contact
+              Line contact
               </a>
             </button>
           </div>
