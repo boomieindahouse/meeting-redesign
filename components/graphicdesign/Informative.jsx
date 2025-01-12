@@ -25,17 +25,7 @@ export default function Informative() {
         <section className="py-10 pt-20 bg-white">
             <div className="container mx-auto px-4">
                 <div className="grid md:grid-cols-2 gap-12 items-center">
-                    <div className="relative">
-                        <video
-                            src="/assets/videos/graphicvid.mp4"
-                            controls
-                            muted
-                            loop
-                            autoPlay={isLgScreen}
-                            className="rounded-xl shadow-xl max-w-full w-full"
-                            poster="/assets/img/poster2.png"
-                        ></video>
-                    </div>
+                    
                     <div>
                         <p className="text-[8pt] lg:text-sm text-gray-600 mb-4 text-start">Informative</p>
                         <p className="text-xl lg:text-3xl font-serif">
@@ -47,6 +37,18 @@ export default function Informative() {
                         >
                             Line contact
                         </a>
+                    </div>
+
+                    <div className="relative">
+                        <video
+                            src="/assets/videos/graphicvid.mp4"
+                            controls
+                            muted
+                            loop
+                            autoPlay={isLgScreen}
+                            className="rounded-xl shadow-xl max-w-full w-full"
+                            poster="/assets/img/poster2.png"
+                        ></video>
                     </div>
                 </div>
             </div>

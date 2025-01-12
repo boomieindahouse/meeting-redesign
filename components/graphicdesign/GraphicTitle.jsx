@@ -1,4 +1,4 @@
-export default function WebTitle() {
+export default function NetworkTitle() {
     return (
         <div className="relative min-h-screen flex items-center pt-16 md:pt-20">
             <div className="absolute inset-0">

@@ -1,10 +1,16 @@
+import NetworkTitle from '../../components/network/NetworkTitle';
+import Informative from '../../components/network/Informative';
+import Showcase from '../../components/network/Networkshowcase';
+import PopularWorks from '../../components/network/PopularWorks';
+
+
 export default function Network() {
   return (
-    <main className="pt-20">
-      <div className="container mx-auto px-4 py-12">
-        <h1 className="text-4xl font-serif mb-6">Network Solutions</h1>
-        <p className="text-gray-600">Coming soon...</p>
-      </div>
+    <main>
+      <NetworkTitle />
+      <Informative />
+      <Showcase />
+      <PopularWorks />
     </main>
   );
 }
