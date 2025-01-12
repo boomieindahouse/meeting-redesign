@@ -13,10 +13,14 @@ export default function Contact() {
           </h1>
           <div className="mt-8 flex flex-col md:flex-row gap-4 justify-start">
             <button className="bg-black text-white px-6 py-2 hover:bg-gray-800 transition">
-              Contact us
+            <a href="tel:064-459-9997" className="no-underline">
+              Call us
+              </a>
             </button>
-            <button className="border border-black px-6 py-2 hover:bg-gray-100 transition">
+            <button  className="border border-black px-6 py-2 hover:bg-gray-100 transition no-underline">
+            <a href="https://lin.ee/gYvfSPi" className="no-underline">
               Line Contact
+              </a>
             </button>
           </div>
         </div>

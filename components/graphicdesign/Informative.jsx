@@ -41,6 +41,12 @@ export default function Informative() {
                         <p className="text-xl lg:text-3xl font-serif">
                         We excel in providing comprehensive<span className='text-teal-600'> graphic design </span>services, including logo design, banners, posters, book covers, various printed media, as well as online designs, social media covers, and corporate identity branding to elevate your business.
                         </p>
+                        <a
+                            href="https://lin.ee/gYvfSPi"
+                            className="inline-block bg-black text-white px-6 py-2 mt-6 text-[10pt] lg:text-lg hover:bg-gray-800 no-underline"
+                        >
+                            Line contact
+                        </a>
                     </div>
                 </div>
             </div>

@@ -22,7 +22,7 @@ export default function Hero() {
           </h1>
 
           <a
-            href="/contact"
+            href="https://lin.ee/gYvfSPi"
             className="inline-block bg-black text-white px-4 py-2 text-sm lg:px-8 lg:py-3 lg:text-lg hover:bg-gray-900 no-underline"
           >
             Line Contact to consult

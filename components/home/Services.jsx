@@ -55,10 +55,10 @@ export default function Services() {
                     </ul>
                     <div>
                         <a
-                            href="/contact"
+                            href="https://lin.ee/gYvfSPi"
                             className="inline-block bg-black text-white px-6 py-2 mt-6 text-[10pt] lg:text-lg hover:bg-gray-800 no-underline"
                         >
-                            Contact us
+                            Line contact
                         </a>
                     </div>
                 </div>

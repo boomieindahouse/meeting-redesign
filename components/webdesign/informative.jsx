@@ -41,6 +41,12 @@ export default function Informative() {
                         <p className="text-xl lg:text-3xl font-serif">
                             We specialize in<span className='text-teal-600'> design and develop website </span>for a wide range of clinic healthcare, including for e-commerce, industries, entertainment, government, education, hospitality, real estate, and more.
                         </p>
+                        <a
+                            href="https://lin.ee/gYvfSPi"
+                            className="inline-block bg-black text-white px-6 py-2 mt-6 text-[10pt] lg:text-lg hover:bg-gray-800 no-underline"
+                        >
+                            Line contact
+                        </a>
                     </div>
                 </div>
             </div>
