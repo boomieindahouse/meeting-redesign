@@ -46,6 +46,12 @@ export default function Introduction() {
                             The executives and staff of Meeting Creative Co., Ltd. have more than 7 years of experience
                             Ready to take care of and be by your side.
                         </p>
+                        <a
+                            href="https://lin.ee/gYvfSPi"
+                            className="inline-block bg-black text-white px-6 py-2 mt-6 text-[10pt] lg:text-lg border border-transparent lg:hover:bg-transparent lg:hover:border-black lg:hover:text-black transition duration-300 no-underline"
+                        >
+                            Line contact
+                        </a>
                     </div>
                 </div>
             </div>

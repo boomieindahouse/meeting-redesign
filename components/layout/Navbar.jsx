@@ -64,7 +64,7 @@ export default function Navbar() {
             ))}
             <Link
               href="/contact"
-              className="bg-black text-white px-8 py-3 lg:px-4 lg:py-1 text-sm lg:text-base hover:bg-gray-900 no-underline transition-all"
+              className="bg-black text-white px-8 py-3 lg:px-4 lg:py-1 text-sm lg:text-base border border-transparent hover:bg-transparent hover:border-black hover:text-black transition duration-300 no-underline"
             >
               Contact Us
             </Link>

@@ -56,7 +56,7 @@ export default function Services() {
                     <div>
                         <a
                             href="https://lin.ee/gYvfSPi"
-                            className="inline-block bg-black text-white px-6 py-2 mt-6 text-[10pt] lg:text-lg hover:bg-gray-800 no-underline"
+                            className="inline-block bg-black text-white px-6 py-2 mt-6 text-[10pt] lg:text-lg border border-transparent lg:hover:bg-transparent lg:hover:border-black lg:hover:text-black transition duration-300 no-underline"
                         >
                             Line contact
                         </a>

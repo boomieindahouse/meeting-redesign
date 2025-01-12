@@ -12,12 +12,12 @@ export default function Contact() {
             your creative products through innovative design and expert solutions.
           </h1>
           <div className="mt-8 flex flex-col md:flex-row gap-4 justify-start">
-            <button className="bg-black text-white px-6 py-2 hover:bg-gray-800 transition">
+            <button className="bg-black text-white px-6 py-2 border border-transparent lg:hover:bg-transparent lg:hover:border-black lg:hover:text-black transition duration-300 no-underline">
             <a href="tel:064-459-9997" className="no-underline">
               Call us
               </a>
             </button>
-            <button  className="border border-black px-6 py-2 hover:bg-gray-100 transition no-underline">
+            <button  className="border border-black px-6 py-2 lg:hover:bg-white lg:hover:text-turqoise transition duration-300 no-underline">
             <a href="https://lin.ee/gYvfSPi" className="no-underline">
               Line contact
               </a>
