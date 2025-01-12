@@ -12,7 +12,7 @@ export default function Hero() {
         </div>
   
         <div className="container mx-auto px-4 relative z-10">
-          <div className="w-2/4">
+          <div className="w-full lg:w-2/4">
             <h1 className="text-4xl lg:text-5xl font-serif mb-14">
               <span className="text-teal-600 leading-[1.3]">Contact Us </span>
               for Support and Solutions.
