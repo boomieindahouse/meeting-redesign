@@ -71,10 +71,12 @@ const Clients = () => {
 
   return (
     <div className="container mx-auto px-2 md:px-4 w-full py-4 md:py-8">
-      <p className="text-[8pt] lg:text-sm text-gray-600 mb-2 md:mb-4 text-start">Our clients</p>
-      <p className="text-xl lg:text-3xl font-serif mb-6 lg:mb-6">
-        We take pride in collaborating with a diverse group of esteemed clients and striving to deliver exceptional results for their unique needs. Here are some of the companies that trust us:
-      </p>
+      <div className='w-3/4'>
+        <p className="text-[8pt] lg:text-sm text-gray-600 mb-2 md:mb-4 text-start">Our clients</p>
+        <p className="text-xl lg:text-3xl font-serif mb-6 lg:mb-6">
+          We take pride in collaborating with a diverse group of esteemed clients and striving to deliver exceptional results for their unique needs. Here are some of the companies that trust us.
+        </p>
+      </div>
       <div
         className={containerStyles}
         onMouseEnter={handleMouseEnter}

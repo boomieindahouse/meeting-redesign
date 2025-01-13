@@ -5,13 +5,13 @@ export default function Contact() {
         style={{ backgroundImage: "url('/assets/img/contactimg.png')" }}
       >
         <div className="text-center text-black px-4 md:px-8 max-w-4xl">
-          <p className="text-[8pt] lg:text-sm text-gray-600 mb-4 text-start">Contact us</p>
-          <h1 className="text-xl lg:text-5xl font-serif leading-snug mb-6 text-start">
+          {/* <p className="text-[8pt] lg:text-sm text-gray-600 mb-4 text-start">Contact us</p> */}
+          <h1 className="text-xl lg:text-5xl font-serif leading-snug mb-6 text-center">
             Partner with{" "}
             <span className="text-teal-600 font-serif">Meeting Creative</span> to elevate
             your creative products through innovative design and expert solutions.
           </h1>
-          <div className="mt-8 flex flex-col md:flex-row gap-4 justify-start">
+          <div className="mt-8 flex flex-col md:flex-row gap-4 justify-center">
             <button className="bg-black text-white px-6 py-2 border border-transparent lg:hover:bg-transparent lg:hover:border-black lg:hover:text-black transition duration-300 no-underline">
             <a href="tel:064-459-9997" className="no-underline">
               Call us
