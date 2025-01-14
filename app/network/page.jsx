@@ -2,6 +2,7 @@ import NetworkTitle from '../../components/network/NetworkTitle';
 import Informative from '../../components/network/Informative';
 import Showcase from '../../components/network/Networkshowcase';
 import PopularWorks from '../../components/network/PopularWorks';
+import Clients from '../../components/layout/Clients';
 
 
 export default function Network() {
@@ -11,6 +12,7 @@ export default function Network() {
       <Informative />
       <Showcase />
       <PopularWorks />
+      <Clients />
     </main>
   );
 }

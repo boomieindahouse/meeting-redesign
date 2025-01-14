@@ -37,8 +37,8 @@ export const useProjectImages = () => {
   
     const networkProjectImages = [
       "https://backend.meeting.co.th/storage/5409/656f5d3440e25_IMG_0502.jpeg",
-      "https://i.imgur.com/gkRDAz0.jpeg",
-      "https://i.imgur.com/Y6FqWbk.jpeg",
+      "https://i.ibb.co/rc8QQz3/S-13631498-0.jpg",
+      "https://i.ibb.co/CtTZ87P/S-13631496-0.jpg",
       "https://i.ibb.co/0DpjHBW/S-13631492-0.jpg",
       "https://i.ibb.co/gtMHDkt/S-13631500-0.jpg",
       "https://i.ibb.co/2Fm2f06/S-13631490-0.jpg",
