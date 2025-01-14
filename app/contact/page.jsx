@@ -1,5 +1,6 @@
 import Title from '../../components/contact/ContactTitle';
-import Info from '../../components/contact/ContactInfo'
+import Info from '../../components/contact/ContactInfo';
+// import ContactForm from '../../components/contact/ContactForm';
 
 
 
@@ -8,6 +9,7 @@ export default function ContactPage() {
     <main>
       <Title />
       <Info />
+      {/* <ContactForm /> */}
     </main>
   );
 }

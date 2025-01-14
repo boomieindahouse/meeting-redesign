@@ -1,4 +1,4 @@
-"use client";
+"use client"
 
 import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -17,11 +17,11 @@ import { useSwiperSettings } from "/composables/useSwiperSettings";
 import { useModal } from "/composables/useModal"; // นำเข้า useModal
 
 // นำเข้า Modal component
-import Modal from "/components/layout/Modal";
+import Modal from "/components/layout/ModalWebDesign";
 
 const WebProjectSwiperCarousel = () => {
   const { webProjectImages } = useProjectImages();
-  
+
   // ใช้ useModal เพื่อจัดการกับ Modal
   const { isModalOpen, currentImage, openModal, closeModal } = useModal();
 
@@ -45,10 +45,8 @@ const WebProjectSwiperCarousel = () => {
     setIsDragging(false); // หยุดการลาก
   };
 
-  const handleImageClick = (e, image) => {
-    if (!isDragging) {
-      openModal(image);
-    }
+  const handleExpandClick = (image) => {
+    openModal(image); // เมื่อคลิกที่ปุ่ม expand, modal จะเปิด
   };
 
   return (
@@ -61,17 +59,33 @@ const WebProjectSwiperCarousel = () => {
                 className="transform transition-transform duration-300 cursor-pointer"
                 onMouseDown={handleMouseDown}
                 onMouseUp={handleMouseUp}
-                onClick={(e) => handleImageClick(e, image)}
               >
                 <div className="rounded-lg overflow-hidden max-w-md mx-auto relative group">
                   <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-300 z-10" />
                   <img
-                    src={image}
+                    src={image.preview}
                     alt={`Web Project ${index + 1}`}
                     className="w-full h-[auto] object-cover"
                   />
                   <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-3 opacity-0 flex justify-center items-center group-hover:opacity-100 transition-opacity z-20">
-                    <Icon icon="fluent:expand-up-right-20-filled" className="text-3xl text-white" />
+                    <div className="flex space-x-8 items-center">
+                      {/* ปุ่ม expand */}
+                      <button
+                        className="text-3xl text-white"
+                        onClick={() => handleExpandClick(image)} // เปิด Modal เมื่อคลิกที่ปุ่มนี้
+                      >
+                        <Icon icon="fluent:expand-up-right-20-filled" />
+                      </button>
+                      {/* ปุ่ม Link ใช้ไอคอน website */}
+                      <a
+                        href={image.website}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-white text-lg font-semibold no-underline"
+                      >
+                        <Icon icon="line-md:link" className="text-white text-3xl" />
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -92,10 +106,10 @@ const WebProjectSwiperCarousel = () => {
       </div>
 
       {/* แสดง Modal ถ้าเปิดใช้งาน */}
-      <Modal 
-        isModalOpen={isModalOpen} 
-        currentImage={currentImage} 
-        closeModal={closeModal} 
+      <Modal
+        isModalOpen={isModalOpen}
+        currentImage={currentImage}
+        closeModal={closeModal}
       />
     </section>
   );

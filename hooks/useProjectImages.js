@@ -1,21 +1,82 @@
 export const useProjectImages = () => {
-    const webProjectImages = [
-      "https://backend.meeting.co.th/storage/8018/66692fb250228_singha.webp",
-      "https://backend.meeting.co.th/storage/5282/65604b75e2c33_653b7730dd6d4_colon-p.webp",
-      "https://backend.meeting.co.th/storage/6408/65b49f06821e3_2.webp",
-      "https://backend.meeting.co.th/storage/8201/667ffed3bb1a7_mehay.webp",
-      "https://backend.meeting.co.th/storage/5292/65604bc113062_653b7f7d7c7ef_you2play.webp",
-      "https://backend.meeting.co.th/storage/6407/65b476d61ffcf_Candy.webp",
-      "https://backend.meeting.co.th/storage/5646/6594dd5742e41_screencapture-127-0-0-1-8000-2024-01-03-10_34_18.webp",
-      "https://backend.meeting.co.th/storage/5636/6593d36a8c313_httpspassionfooddelivery.com_7_11zon.webp",
-      "https://backend.meeting.co.th/storage/5631/6593d0cf21bc1_httpschalisapoolvilla.com_20_11zon.webp",
-      "https://backend.meeting.co.th/storage/5281/65604b6f1cc44_653b77d2b04e8_taifah.webp",
-      "https://backend.meeting.co.th/storage/5632/6593d187eb249_httpschouchou.salemood.com_15_11zon.webp",
-      "https://backend.meeting.co.th/storage/9475/669b41ee49d07_chol.webp",
-      "https://backend.meeting.co.th/storage/5620/6593cb65bf97d_httpskubotakorat.com_26_11zon.webp",
-      "https://backend.meeting.co.th/storage/5290/65604bb1e5b78_653b7d9a86f9e_starwellinter.webp",
-      "https://backend.meeting.co.th/storage/5604/6593bdc371d5e_iyara.co.th_4_11zon.webp",
-    ];
+  const webProjectImages = [
+    {
+      "name": "Singha Thailand Challenge",
+      "preview": "https://backend.meeting.co.th/storage/8018/66692fb250228_singha.webp",
+      "website": "https://singhathailandchallenge.com/"
+    },
+    {
+      "name": "Colon-P",
+      "preview": "https://backend.meeting.co.th/storage/5282/65604b75e2c33_653b7730dd6d4_colon-p.webp",
+      "website": "https://colon-p.com/"
+    },
+    {
+      "name": "City Link Condo",
+      "preview": "https://backend.meeting.co.th/storage/6408/65b49f06821e3_2.webp",
+      "website": "https://citylinkcondo.com/en"
+    },
+    {
+      "name": "Mehay",
+      "preview": "https://backend.meeting.co.th/storage/8201/667ffed3bb1a7_mehay.webp",
+      "website": "https://mehay.kr/"
+    },
+    {
+      "name": "You2Play",
+      "preview": "https://backend.meeting.co.th/storage/5292/65604bc113062_653b7f7d7c7ef_you2play.webp",
+      "website": "https://you2play.com/"
+    },
+    {
+      "name": "Candy Clinic",
+      "preview": "https://backend.meeting.co.th/storage/6407/65b476d61ffcf_Candy.webp",
+      "website": "https://candyclinic.salemood.com/"
+    },
+    {
+      "name": "CTG2002",
+      "preview": "https://backend.meeting.co.th/storage/5646/6594dd5742e41_screencapture-127-0-0-1-8000-2024-01-03-10_34_18.webp",
+      "website": "https://ctg2002.co.th/"
+    },
+    {
+      "name": "Jeda Aquatics",
+      "preview": "https://backend.meeting.co.th/storage/5605/6593be1c9a3a1_jedaaquatics.com_2_11zon.webp",
+      "website": "https://jedaaquatics.com/"
+    },
+    {
+      "name": "Suksabai Ville",
+      "preview": "https://backend.meeting.co.th/storage/5608/6593c08aafed1_suksabaiville.com_6_11zon.webp",
+      "website": "https://suksabaiville.com/"
+    },
+    {
+      "name": "Taifah City",
+      "preview": "https://backend.meeting.co.th/storage/5281/65604b6f1cc44_653b77d2b04e8_taifah.webp",
+      "website": "https://taifahcity.com/"
+    },
+    {
+      "name": "Chouchou Pet Store",
+      "preview": "https://backend.meeting.co.th/storage/5632/6593d187eb249_httpschouchou.salemood.com_15_11zon.webp",
+      "website": "https://chouchou.salemood.com/"
+    },
+    {
+      "name": "Cholaphatsron",
+      "preview": "https://backend.meeting.co.th/storage/9475/669b41ee49d07_chol.webp",
+      "website": "https://cholaphatsron.com/"
+    },
+    {
+      "name": "Kubota Korat",
+      "preview": "https://backend.meeting.co.th/storage/5620/6593cb65bf97d_httpskubotakorat.com_26_11zon.webp",
+      "website": "https://kubotakorat.com/"
+    },
+    {
+      "name": "Starwell Inter Care",
+      "preview": "https://backend.meeting.co.th/storage/5290/65604bb1e5b78_653b7d9a86f9e_starwellinter.webp",
+      "website": "https://starwellintercare.com/"
+    },
+    {
+      "name": "Iyara Engineering",
+      "preview": "https://backend.meeting.co.th/storage/5604/6593bdc371d5e_iyara.co.th_4_11zon.webp",
+      "website": "https://iyara.co.th/"
+    }
+  ];
+  
   
     const graphicProjectImages = [
       "https://backend.meeting.co.th/storage/5220/6560435d3d922_65258abfdae84_IMG_2288.webp",

@@ -17,7 +17,7 @@ import { useSwiperSettings } from "/composables/useSwiperSettings";
 import { useModal } from "/composables/useModal"; // นำเข้า useModal
 
 // นำเข้า Modal component
-import Modal from "/components/layout/Modal";
+import Modal from "/components/layout/Modals";
 
 const WebProjectSwiperCarousel = () => {
   const { networkProjectImages } = useProjectImages();

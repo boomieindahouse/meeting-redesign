@@ -1,5 +1,3 @@
-// component/layout/Modal.js
-
 import React from "react";
 
 const Modal = ({ isModalOpen, currentImage, closeModal }) => {
